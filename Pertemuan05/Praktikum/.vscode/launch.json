@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "latihan_p5",
+            "cwd": "latihan_p5",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "latihan_p5 (profile mode)",
+            "cwd": "latihan_p5",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "latihan_p5 (release mode)",
+            "cwd": "latihan_p5",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
