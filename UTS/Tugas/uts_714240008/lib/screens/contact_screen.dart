@@ -3,7 +3,6 @@ import '../models/contact.dart';
 import '../widgets/contact/contact_form_card.dart';
 import '../widgets/contact/contact_list_view.dart';
 
-/// Halaman Pengelolaan Kontak (Formulir & ListView)
 class ContactScreen extends StatefulWidget {
   final List<Contact> contacts;
   final Function(Contact) onAddContact;

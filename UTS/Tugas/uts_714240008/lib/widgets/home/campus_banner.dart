@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Banner identitas kampus ULBI (Ref Pertemuan 5)
 class CampusBanner extends StatelessWidget {
   const CampusBanner({super.key});
 
@@ -15,20 +14,17 @@ class CampusBanner extends StatelessWidget {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: Image.asset(
-                'images/ulbi.jpg',
-                height: 80,
-                fit: BoxFit.contain,
-                errorBuilder: (context, error, stackTrace) {
-                  return const Icon(
-                    Icons.school_rounded,
-                    size: 70,
-                    color: Colors.teal,
-                  );
-                },
-              ),
+            Image.asset(
+              'images/ulbi.jpg',
+              height: 80,
+              fit: BoxFit.contain,
+              errorBuilder: (context, error, stackTrace) {
+                return const Icon(
+                  Icons.school_rounded,
+                  size: 70,
+                  color: Colors.teal,
+                );
+              },
             ),
             const SizedBox(height: 12),
             const Text(

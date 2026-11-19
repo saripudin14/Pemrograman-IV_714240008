@@ -3,7 +3,6 @@ import '../widgets/home/campus_banner.dart';
 import '../widgets/home/profile_card.dart';
 import '../widgets/home/stats_section.dart';
 
-/// Halaman Home UTS Pemrograman IV
 class HomeScreen extends StatelessWidget {
   final int contactCount;
   final VoidCallback onNavigateToContacts;

@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 
-/// Komponen pemilihan berkas & pratinjau gambar (Ref Pertemuan 7)
 class FilePickerTile extends StatelessWidget {
   final String? filePath;
   final String? fileName;

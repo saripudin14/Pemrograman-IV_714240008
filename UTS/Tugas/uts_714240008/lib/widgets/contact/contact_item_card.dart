@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../../models/contact.dart';
 
-/// Kartu item individual dalam daftar kontak (Ref Pertemuan 4)
 class ContactItemCard extends StatelessWidget {
   final Contact contact;
   final VoidCallback onEdit;

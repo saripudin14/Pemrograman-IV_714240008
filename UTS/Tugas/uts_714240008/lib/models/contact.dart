@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Model data untuk menyimpan informasi kontak
 class Contact {
   final String id;
   String name;

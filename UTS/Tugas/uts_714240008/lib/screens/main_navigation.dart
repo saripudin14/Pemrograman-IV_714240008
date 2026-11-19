@@ -13,7 +13,6 @@ class MainNavigation extends StatefulWidget {
 class _MainNavigationState extends State<MainNavigation> {
   int _currentIndex = 0;
 
-  // State penyimpanan kontak sementara (in-memory)
   final List<Contact> _contacts = [];
 
   void _addContact(Contact contact) {
@@ -40,7 +39,6 @@ class _MainNavigationState extends State<MainNavigation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // IndexedStack memastikan state kedua tab tidak ter-reset saat berpindah
       body: IndexedStack(
         index: _currentIndex,
         children: [

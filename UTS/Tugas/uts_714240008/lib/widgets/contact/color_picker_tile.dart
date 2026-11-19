@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
-/// Komponen pemilih warna menggunakan flutter_colorpicker (Ref Pertemuan 7)
 class ColorPickerTile extends StatelessWidget {
   final Color selectedColor;
   final ValueChanged<Color> onColorChanged;

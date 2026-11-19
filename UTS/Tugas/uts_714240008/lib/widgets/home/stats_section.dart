@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Bagian statistik cepat dan tombol aksi navigasi (Ref Pertemuan 4)
 class StatsSection extends StatelessWidget {
   final int contactCount;
   final VoidCallback onNavigateToContacts;

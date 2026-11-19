@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Kartu profil identitas mahasiswa (Ref Pertemuan 5)
 class ProfileCard extends StatelessWidget {
   static const String namaMahasiswa = 'Muhammad Arif Rivaldi';
   static const String npmMahasiswa = '714240008';
